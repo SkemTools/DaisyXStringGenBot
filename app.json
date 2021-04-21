@@ -1,0 +1,38 @@
+{
+    "name": "DaisyX StringGenerator",
+    "description": "None",
+    "logo": "https://telegra.ph/file/0fbf00e1bcdb037e5daab.jpg",
+    "keywords": ["Telethon", "telegram", "Scrapper", "python"," String Generator","String Session"],
+    "repository": "https://github.com/SkemTools/StringGenBot",
+    "website": "https://daisyx.netlify.app/",
+    "success_url": "https://t.me/DaisySupport_Official",
+    "stack": "container",
+    "env": {
+    "APP_ID": {
+      "description": "Your API ID take it from @DaisyXScrapperBot or my.telegram.org",
+      "value": "28278"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string."
+    },
+    "API_HASH": {
+      "description": "Your API HASH take it from @DaisyXScrapperBot or my.telegram.org",
+      "value": ""
+    },
+     "BOT_NAME": {
+      "description": "Write Name Of Your Bot Here",
+      "value": ""
+    },
+    "COMMAND_PREFIXES": {
+      "description": "skem skem skem",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-20"
+}
